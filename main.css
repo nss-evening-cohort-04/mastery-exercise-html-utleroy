@@ -22,8 +22,9 @@ body {
 }
 
 h1 {
-  border: 1px dashed lightgrey;
+  border: 1px dotted lightgrey;
   margin: 0;
+  padding: 10px 0 10px 0;
 }
 
 img {
@@ -51,4 +52,14 @@ header {
 p.greybar {
   color: yellow;
   padding: 3px 0 3px 5px;
+}
+
+.boldish p {
+  font-weight: bold;
+}
+
+
+
+.text-pad {
+  margin: 0 10px 0 10px;
 }
